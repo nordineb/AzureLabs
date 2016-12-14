@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newLabName": {
+      "value": "Workshop"
+    },
+    "labVmShutDownTime": {
+      "value": "21:00"
+    },
+    "timeZoneId": {
+      "value": "UTC+1"
+    },
+    "maxAllowedVmsPerUser": {
+      "value": 1
+    },
+    "maxAllowedVmsPerLab": {
+      "value": 10
+    },
+    "allowedVmSizes": {
+      "value": "\"Standard_F4\""
+    }
+  }
+}
